@@ -1,0 +1,40 @@
+.bounds {
+    background-color:#ddd;
+    height :100vh;
+  }
+  
+  .sec1 {
+    background:#4e038b;
+    color:white;
+    text-transform: uppercase
+  }
+  
+  .sec2 {
+    background: rgb(141, 141, 139);
+    color:#fff;    
+  }  
+  
+  .sec1, .sec2{
+    padding-top:20px;
+    text-align:center
+  }
+  
+  .content {
+    min-width: 80%;
+    /*height: 400px;*/
+  }
+
+  .mat-button-toggle-label-content{
+      color:#fff;
+  }
+
+  .mat-button-toggle-checked .mat-button-toggle{
+    color:rgba(19, 16, 16, 0.5)!important;
+  }
+  .mat-button-toggle-button{
+    color:rgba(19, 16, 16, 0.5)!important;
+  }
+
+  .mat-button-toggle{
+    color:rgba(255, 255, 255,.5);
+  }

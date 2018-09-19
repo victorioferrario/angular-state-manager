@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@hubx/states": [
+        "projects/state-machine/src/public_api"
+      ],
+      "@hubx/states/*": [
+        "projects/state-machine/src/public_api"
+      ]
+    }
   }
 }

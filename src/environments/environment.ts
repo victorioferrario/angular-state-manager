@@ -2,8 +2,17 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+
 export const environment = {
-  production: false
+  production: false,
+  MVC_URL: '',
+  API_URL: '',
+  APP_NAME: '',
+  APPLICATION_ID: '',
+  MVC_DATA_CONTEXT: '',
+  USE_CREDENTIALS: false,
+  OFFLINE_DATABASE_NAME: '',
+  EXTERNAL_APP: false
 };
 
 /*
